@@ -14,8 +14,6 @@
         </task-arguments>
         <executable-task>
             <type>file</type>
-            <file os-type="mac">confluent_monitor_linux.py</file>
-            <file os-type="linux">confluent_monitor_linux.py</file>
             <file os-type="windows">confluent_monitor.py</file>
         </executable-task>
     </monitor-run-task>
