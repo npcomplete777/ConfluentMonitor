@@ -1,0 +1,22 @@
+<monitor>
+    <name>ConfluentMonitor</name>
+    <type>managed</type>
+    <enabled>true</enabled>
+    <description>Monitors Confluent
+    </description>
+    <monitor-configuration>
+    </monitor-configuration>
+    <monitor-run-task>
+        <execution-style>periodic</execution-style>
+        <name>Run</name>
+        <type>executable</type>
+        <task-arguments>
+        </task-arguments>
+        <executable-task>
+            <type>file</type>
+            <file os-type="mac">confluent_monitor_linux.py</file>
+            <file os-type="linux">confluent_monitor_linux.py</file>
+            <file os-type="windows">confluent_monitor.py</file>
+        </executable-task>
+    </monitor-run-task>
+</monitor>
