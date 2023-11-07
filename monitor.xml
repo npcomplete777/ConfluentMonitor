@@ -14,7 +14,7 @@
         </task-arguments>
         <executable-task>
             <type>file</type>
-            <file os-type="windows">confluent_monitor.py</file>
+            <file os-type="windows">ConfluentMonitorLauncher.bat</file>
         </executable-task>
     </monitor-run-task>
 </monitor>
